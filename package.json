@@ -1,0 +1,24 @@
+{
+  "name": "telegram-daily-joke-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot which sends you a joke every day",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhentschel06/telegram-daily-joke-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhentschel06/telegram-daily-joke-bot/issues"
+  },
+  "homepage": "https://github.com/dhentschel06/telegram-daily-joke-bot#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
