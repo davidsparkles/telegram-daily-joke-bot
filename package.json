@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dhentschel06/telegram-daily-joke-bot#readme",
   "dependencies": {
+    "node-schedule": "^1.2.0",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
   }
