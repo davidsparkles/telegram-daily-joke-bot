@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha -t 60000 -R spec test"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,17 @@
   },
   "homepage": "https://github.com/dhentschel06/telegram-daily-joke-bot#readme",
   "dependencies": {
+    "bluebird": "^3.4.7",
+    "lodash": "^4.17.4",
     "node-schedule": "^1.2.0",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "glob": "^7.1.1",
+    "mocha": "^3.2.0"
   }
 }
