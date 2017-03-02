@@ -7,6 +7,7 @@
     "start": "node app.js",
     "test": "node_modules/.bin/mocha -t 60000 -R spec test"
   },
+  "pre-commit": [ "test" ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dhentschel06/telegram-daily-joke-bot.git"
@@ -25,10 +26,14 @@
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
     "eslint": "^3.16.1",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-plugin-import": "^2.2.0",
     "glob": "^7.1.1",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "pre-commit": "^1.2.2"
   }
 }
